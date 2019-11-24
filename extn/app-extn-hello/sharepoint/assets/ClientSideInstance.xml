@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HelloWorld"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="024f2ea1-be3e-4e75-bde8-3f323ec0afcd"
+        Properties="{&quot;Top&quot;:&quot;Top Area Text&quot;,&quot;Bottom&quot;:&quot;Bottom Area Text&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

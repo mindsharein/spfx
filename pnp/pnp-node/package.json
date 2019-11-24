@@ -1,0 +1,19 @@
+{
+  "name": "pnp-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@pnp/common": "^1.3.7",
+    "@pnp/logging": "^1.3.7",
+    "@pnp/nodejs": "^1.3.7",
+    "@pnp/odata": "^1.3.7",
+    "@pnp/sp": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mindsharein.sharepoint.com/SitePages/TestExt.aspx",
+      "customActions": {
+        "024f2ea1-be3e-4e75-bde8-3f323ec0afcd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top" : "Top area of Page",
+            "Bottom" : "Bottom area of Page"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://mindsharein.sharepoint.com/SitePages/TestExt.aspx",
+      "customActions": {
+        "024f2ea1-be3e-4e75-bde8-3f323ec0afcd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top" : "Top area of Page",
+            "Bottom" : "Bottom area of Page"
+          }
+        }
+      }
+    }
+  }
+}

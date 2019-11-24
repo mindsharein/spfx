@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fab-ui-basic-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fabUiBasic/FabUiBasicWebPart.js",
+          "manifest": "./src/webparts/fabUiBasic/FabUiBasicWebPart.manifest.json"
+        }
+      ]
+    },
+    "register-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/registerWebPart/RegisterWebPartWebPart.js",
+          "manifest": "./src/webparts/registerWebPart/RegisterWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FabUiBasicWebPartStrings": "lib/webparts/fabUiBasic/loc/{locale}.js",
+    "RegisterWebPartWebPartStrings": "lib/webparts/registerWebPart/loc/{locale}.js"
+  }
+}
