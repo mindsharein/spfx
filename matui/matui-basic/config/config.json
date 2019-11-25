@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/basicForm/BasicFormWebPart.manifest.json"
         }
       ]
+    },
+    "basic-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/basicTable/BasicTableWebPart.js",
+          "manifest": "./src/webparts/basicTable/BasicTableWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "BasicFormWebPartStrings": "lib/webparts/basicForm/loc/{locale}.js"
+    "BasicFormWebPartStrings": "lib/webparts/basicForm/loc/{locale}.js",
+    "BasicTableWebPartStrings": "lib/webparts/basicTable/loc/{locale}.js"
   }
 }
