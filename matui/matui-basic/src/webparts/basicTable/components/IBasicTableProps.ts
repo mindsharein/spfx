@@ -1,3 +1,4 @@
 export interface IBasicTableProps {
-  description: string;
+  listName : string;
+  context: any;
 }

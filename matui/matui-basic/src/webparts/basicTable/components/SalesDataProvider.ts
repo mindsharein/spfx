@@ -1,8 +1,8 @@
 import {sp, Web } from "@pnp/sp";
 import { Environment, EnvironmentType } from "@microsoft/sp-core-library";
-import { ISalesDataItem } from "./ISalesDataItem";
+import ISalesDataItem from "./ISalesDataItem";
 
-export class SalesDataProvider {
+export default class SalesDataProvider {
 
     private listName : string = "";
 

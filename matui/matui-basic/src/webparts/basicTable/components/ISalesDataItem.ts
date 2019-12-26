@@ -1,4 +1,4 @@
-export interface ISalesDataItem {
+export default interface ISalesDataItem {
     Region : string;
     Year : number;
     Month : string; 

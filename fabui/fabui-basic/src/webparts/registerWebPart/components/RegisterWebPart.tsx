@@ -120,7 +120,7 @@ export default class RegisterWebPart extends React.Component<IRegisterWebPartPro
     }
   }
 
-  // Validate Form
+   // Validate Form
   private validateForm(formData: {}): boolean {
     const schema = {
       userid : Type(String),

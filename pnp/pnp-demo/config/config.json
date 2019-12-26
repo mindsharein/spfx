@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "company-info-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/companyInfo/CompanyInfoWebPart.js",
+          "manifest": "./src/webparts/companyInfo/CompanyInfoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CompanyInfoWebPartStrings": "lib/webparts/companyInfo/loc/{locale}.js"
+  }
+}
