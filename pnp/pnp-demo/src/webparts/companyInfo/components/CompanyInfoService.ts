@@ -10,6 +10,7 @@ export default class CompanyInfoService {
     }
 
     public getCompanyItems() : Promise<ICompanyItem[]> {
+        
         return sp.web.lists.getByTitle(this.listName)
                 .items.select("Title", "HeadCount", "Location")
                 .getAll(100);

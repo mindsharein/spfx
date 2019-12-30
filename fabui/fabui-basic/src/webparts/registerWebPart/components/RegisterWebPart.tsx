@@ -30,7 +30,7 @@ export default class RegisterWebPart extends React.Component<IRegisterWebPartPro
 
   public render(): React.ReactElement<IRegisterWebPartProps> {
     return (
-      <div>
+      <>
         <Label>USER REGISTRATION</Label>
         <TextField 
           label="User ID" 
@@ -50,10 +50,11 @@ export default class RegisterWebPart extends React.Component<IRegisterWebPartPro
               required >
         </TextField>
 
-        <TextField 
+        <TextField
               label="Phone" 
               name="phone"
-              value={ this.state.phone }>
+              value={ this.state.phone }
+               >
         </TextField>
 
         <Dropdown
@@ -73,17 +74,7 @@ export default class RegisterWebPart extends React.Component<IRegisterWebPartPro
 
         <PrimaryButton name="submit" text=" Submit " onClick={ this.handleClick } ></PrimaryButton>
 
-        <div>
-          ** Debug Info ** <br/>
-          User id : { this.state.userid } <br/>
-          Password : { this.state.password } <br/>
-          Name : { this.state.name } <br/>
-          Email: { this.state.email } <br/>
-          Phone: { this.state.phone } <br/>
-          Membership : { this.state.membership.code } - { this.state.membership.text } <br/>
-          Subscribe: { this.state.subscribe }
-        </div>
-      </div>
+      </>
     );
   }
 
