@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "plain-comp-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/plainCompDemo/PlainCompDemoWebPart.js",
+          "manifest": "./src/webparts/plainCompDemo/PlainCompDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PlainCompDemoWebPartStrings": "lib/webparts/plainCompDemo/loc/{locale}.js"
+  }
+}

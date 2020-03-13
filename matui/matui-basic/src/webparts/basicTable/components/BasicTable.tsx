@@ -31,7 +31,8 @@ export default class BasicTable extends React.Component<IBasicTableProps, {}> {
 
   public render(): React.ReactElement<IBasicTableProps> {
     // Fetch the Data
-    this.provider.getItems().then((allItems : ISalesDataItem[]) => {
+    this.provider.getItems()
+      .then((allItems : ISalesDataItem[]) => {
       // Assign to State object
       this.setState({ data: allItems});
     });

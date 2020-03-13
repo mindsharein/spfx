@@ -1,5 +1,5 @@
 {
-  "name": "fabui-basic",
+  "name": "spfxtest",
   "version": "0.0.1",
   "private": true,
   "main": "lib/index.js",
@@ -12,24 +12,17 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/office-ui-fabric-react-bundle": "^1.9.1",
-    "@microsoft/sp-core-library": "1.9.1",
-    "@microsoft/sp-lodash-subset": "1.9.1",
-    "@microsoft/sp-office-ui-fabric-core": "1.9.1",
-    "@microsoft/sp-webpart-base": "1.9.1",
-    "@pnp/common": "^2.0.0",
-    "@pnp/logging": "^2.0.0",
-    "@pnp/odata": "^2.0.0",
-    "@pnp/sp": "^2.0.0",
-    "@types/es6-promise": "0.0.33",
-    "@types/react": "16.8.8",
-    "@types/react-dom": "16.8.3",
-    "@types/webpack-env": "1.13.1",
-    "office-ui-fabric-react": "6.189.2",
-    "office-ui-fabric-react-pagination": "0.0.8",
     "react": "16.8.5",
     "react-dom": "16.8.5",
-    "validate-typescript": "^4.0.2"
+    "@types/react": "16.8.8",
+    "@types/react-dom": "16.8.3",
+    "office-ui-fabric-react": "6.189.2",
+    "@microsoft/sp-core-library": "1.9.1",
+    "@microsoft/sp-webpart-base": "1.9.1",
+    "@microsoft/sp-lodash-subset": "1.9.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.9.1",
+    "@types/webpack-env": "1.13.1",
+    "@types/es6-promise": "0.0.33"
   },
   "resolutions": {
     "@types/react": "16.8.8"

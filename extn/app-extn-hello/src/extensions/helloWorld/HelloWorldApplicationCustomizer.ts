@@ -39,8 +39,6 @@ export default class HelloWorldApplicationCustomizer
 
     this.context.placeholderProvider.changedEvent.add(this, this._renderPlaceHolders);
 
-    this.
-
     return Promise.resolve<void>();   
   }
 

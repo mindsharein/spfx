@@ -25,12 +25,21 @@
           "manifest": "./src/webparts/vehicles/VehiclesWebPart.manifest.json"
         }
       ]
+    },
+    "details-list-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detailsListDemo/DetailsListDemoWebPart.js",
+          "manifest": "./src/webparts/detailsListDemo/DetailsListDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "FabUiBasicWebPartStrings": "lib/webparts/fabUiBasic/loc/{locale}.js",
     "RegisterWebPartWebPartStrings": "lib/webparts/registerWebPart/loc/{locale}.js",
-    "VehiclesWebPartStrings": "lib/webparts/vehicles/loc/{locale}.js"
+    "VehiclesWebPartStrings": "lib/webparts/vehicles/loc/{locale}.js",
+    "DetailsListDemoWebPartStrings": "lib/webparts/detailsListDemo/loc/{locale}.js"
   }
 }
